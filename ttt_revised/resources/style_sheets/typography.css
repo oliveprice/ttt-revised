@@ -1,0 +1,29 @@
+
+@font-face {
+    font-family: 'Olive-writing';
+    src: url('../fonts/Olive_writing-Regular.otf') format('truetype');
+  }
+
+  body {
+    font-family: 'Olive-writing', 'Cursive', Georgia, serif;
+  }
+  
+  h1 {
+    font-family: 'Olive-writing', 'Cursive', Georgia, serif;
+    font-size: 2.5rem;
+}
+
+.red-ink {
+  transform: rotate(-5deg); /* Tilt to the left by 10 degrees */
+  display: inline-block; /* Allows transform to affect the span */
+  color: red;
+}
+
+
+.header p {
+    font-size: 1.5rem;
+}
+
+p.instruction {
+    font-size: 1.5rem;
+}

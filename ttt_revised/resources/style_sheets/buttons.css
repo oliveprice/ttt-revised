@@ -1,0 +1,33 @@
+.bot-button {
+    background-image: url('../images/drawn-elements/bot-button.png');
+    background-repeat: no-repeat;
+    background-size: contain; 
+    width: 100%;
+    height: 100px;
+}
+
+.bot-button:hover {
+    background-image: url('../images/drawn-elements/bot-button-chosen.png');
+    background-repeat: no-repeat;
+    background-size: contain; 
+    width: 100%;
+    height: 100px;
+    cursor: pointer;
+}
+
+.human-button {
+    background-image: url('../images/drawn-elements/human-button.png');
+    background-repeat: no-repeat;
+    background-size: contain; /* or you can use a percentage value like 50% */
+    width: 100%;
+    height: 100px;
+}
+
+.human-button:hover {
+    background-image: url('../images/drawn-elements/human-button-chosen.png');
+    background-repeat: no-repeat;
+    background-size: contain; /* or you can use a percentage value like 50% */
+    width: 100%;
+    height: 100px;
+    cursor: pointer;
+}
