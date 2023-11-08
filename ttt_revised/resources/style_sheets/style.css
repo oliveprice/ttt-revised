@@ -1,7 +1,10 @@
-
-@import url('./buttons.css');
-@import url('./mini-classes.css');
-@import url('./notebook-paper.css');
-@import url('./responsive.css');
-@import url('./reset.css');
-@import url('./typography.css');
+@import url('../../resources/css_modules/buttons.css');
+@import url('../../resources/css_modules/mini-classes.css');
+@import url('../../resources/css_modules/modal.css');
+@import url('../../resources/css_modules/notebook-paper.css');
+@import url('../../resources/css_modules/responsive.css');
+@import url('../../resources/css_modules/reset.css');
+@import url('../../resources/css_modules/grid-animation.css');
+@import url('../../resources/css_modules/grid.css');
+@import url('../../resources/css_modules/typography.css');
+@import url('../../resources/css_modules/winning-animation.css');

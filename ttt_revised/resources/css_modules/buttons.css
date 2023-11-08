@@ -1,0 +1,151 @@
+
+.bot-button, .bot-button:hover, .human-button, .human-button:hover, .hard-button, .hard-button:hover, .easy-button, 
+.easy-button:hover, .medium-button, .medium-button:hover, .next-button, .next-button:hover, .okay-button, .next-button:hover,
+.dont-care-button, .dont-care-button:hover, .play-again-button, .play-again-button:hover, .back-button, .back-button:hover  {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 314px;
+    height: 139px;
+    
+}
+
+.bot-button  {
+    background-image: url(../images/drawn-elements/bot-button.png);
+}
+
+.bot-button:hover {
+    background-image: url('../images/drawn-elements/bot-button-chosen.png');
+    cursor: pointer;
+}
+
+.human-button {
+    background-image: url('../images/drawn-elements/human-button.png');
+
+}
+
+.human-button:hover {
+    background-image: url('../images/drawn-elements/human-button-chosen.png');
+    cursor: pointer;
+    
+}
+
+.hard-button {
+    background-image: url('../images/drawn-elements/hard-button.png');
+
+}
+
+.hard-button:hover {
+    background-image: url('../images/drawn-elements/hard-button-chosen.png');
+    cursor: pointer;
+    
+}
+.medium-button {
+    background-image: url('../images/drawn-elements/medium-button.png');
+
+}
+
+.medium-button:hover {
+    background-image: url('../images/drawn-elements/medium-button-chosen.png');
+    cursor: pointer;
+    
+}
+
+.play-again-button {
+    background-image: url('../images/drawn-elements/play-again.png');
+
+    width: 100px;
+    height: 90px;
+
+}
+
+.play-again-button:hover {
+    background-image: url('../images/drawn-elements/play-again-hovered.png');
+    cursor: pointer;
+    width: 100px;
+    height: 90px;
+    
+}
+
+.easy-button {
+    background-image: url('../images/drawn-elements/easy-button.png');
+
+}
+
+.easy-button:hover {
+    background-image: url('../images/drawn-elements/easy-button-chosen.png');
+    cursor: pointer;
+    
+}
+
+
+.next-button {
+    background-image: url('../images/drawn-elements/next-button.png');
+    width: 150px;
+    height: 90px;
+    display: none; /* initially hide the button */
+}
+
+
+.next-button:hover {
+    background-image: url('../images/drawn-elements/next-button-hovered.png');
+    cursor: pointer;
+
+    width: 150px;
+    height: 90px;
+    
+}
+
+.back-button {
+    background-image: url('../images/drawn-elements/last-page.png');
+
+    width: 150px;
+    height: 90px;
+
+}
+
+
+.back-button:hover {
+    background-image: url('../images/drawn-elements/last-page-hovered.png');
+    cursor: pointer;
+    width: 150px;
+    height: 90px;
+    
+}
+
+
+.okay-button {
+    background-image: url('../images/drawn-elements/okay-button.png');
+    width: 150px;
+    height: 90px;
+}
+
+
+.okay-button:hover {
+    background-image: url('../images/drawn-elements/okay-button-hovered.png');
+    cursor: pointer;
+    width: 150px;
+    height: 90px;
+    
+}
+
+.dont-care-button {
+    background-image: url('../images/drawn-elements/dont-care-button.png');
+    width: 150px;
+    height: 90px;
+}
+
+.dont-care-button:hover {
+    background-image: url('../images/drawn-elements/dont-care-button-hovered.png');
+    width: 150px;
+    height: 90px;
+    cursor: pointer;
+}
+
+.nav-buttons {
+    margin: -644px 171px 0 11vw;
+
+
+}
+.back-button, .back-button:hover, .next-button, .next-button:hover, .play-again-button, .play-again-button:hover {
+    width: 100px;
+}

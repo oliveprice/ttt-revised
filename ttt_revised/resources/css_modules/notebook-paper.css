@@ -1,0 +1,47 @@
+
+body, main {
+    position: relative; 
+}
+
+/* for the red vertical line */
+body::before, main::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10vw; /* spacing from the left margin to vertical red line */
+    width: 3px; /* width of the vertical line */
+    height: 100vh;
+    background-color: red;
+    z-index: 1; /* ensures the line is above the body but below the content */
+}
+
+/* for the blue vertical line */
+body::after, main::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 160px; /* spacing from the right margin to vertical blue line */
+    width: 3px; /* width of the vertical line */
+    height: 100vh;
+    background-color: rgba(0, 0, 255, 0.093); /* blue with some opacity */
+    z-index: 1; /* ensures the line is above the body but below the content */
+}
+
+.notebook-paper {
+    background-image: url('../images/designs/notebook-paper.png');
+    width: 100vw;
+    height: calc(100vh - 16vh); /* subtracting from the white space I want at top */
+    position: absolute;
+    top: 16vh; /* white space for submission-info */
+    left: 0;
+    z-index: 0; /* behind the red line */
+}
+
+.submission-info {
+    margin-left: 11vw; /* spacing from the left side */
+    display: flex;
+    justify-content: flex-start;
+    height: 16vh;
+    align-items: flex-end;
+}
+

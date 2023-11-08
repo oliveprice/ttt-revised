@@ -1,0 +1,183 @@
+.tic-tac-toe {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 40px auto;
+}
+
+.grid-line {
+    position: absolute;
+    background: black;
+    z-index: 2;
+}
+
+
+#h2 {
+    top: 66.666%;
+}
+
+.vertical-line {
+    width: 4px;
+    height: 100%;
+    left: 33.333%;
+    top: 0;
+
+}
+
+#vertical-2 {
+    left: 66.666%;
+}
+
+
+
+.horizontal-line {
+    width: 100%;
+    height: 4px;
+    top: 33.333%;
+    left: 0;
+
+}
+
+
+.game-grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-space {
+    flex: 1 1 0px; /* Grow to fill the row, don't shrink, initial basis of 0px */
+    aspect-ratio: 1; /* Makes the cell square */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px; /* Adjust the margin to control spacing between cells */
+}
+
+
+
+.tic-tac-toe {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.line {
+    position: absolute;
+    background: black;
+    z-index: 2;
+}
+
+.grid-cell.move-1:hover {
+    background-image: url(../images/characters/cat/sitting-cat.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center; 
+    width: 64px;
+    height: 149px;
+    cursor: pointer;
+}
+
+.grid-cell.move-2:hover {
+    background-image: url(../images/characters/cat/sleeping-cat.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center; 
+    width: 64px;
+    height: 149px;
+    cursor: pointer;
+}
+
+.grid-cell.move-3:hover {
+    background-image: url(../images/characters/cat/laying-cat.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center; 
+
+    cursor: pointer;
+}
+.grid-cell.taken-cat-1 {
+    background-image: url(../images/characters/cat/sitting-cat.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center; 
+    width: 64px;
+    height: 149px;
+}
+
+.grid-cell.taken-cat-2 {
+    background-image: url(../images/characters/cat/sleeping-cat.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 64px;
+    height: 149px;
+}
+
+.grid-cell.taken-cat-3 {
+    background-image: url(../images/characters/cat/laying-cat.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 165px;
+    height: 149px;
+}
+
+.grid-cell.taken-mouse-1 {
+    background-image: url(../images/characters/mouse/sitting-mouse.png);
+    background-repeat: no-repeat;
+    background-size: 50%; /* Adjust this value as needed to make the image smaller */
+    background-position: center center; /* This centers the background image */
+    width: 64px;
+    height: 149px;
+}
+.grid-cell.taken-mouse-2 {
+    background-image: url(../images/characters/mouse/cheese-mouse.png);
+    background-repeat: no-repeat;
+    background-size: 50%; /* Adjust this value as needed to make the image smaller */
+    background-position: center center; /* This centers the background image */
+    width: 64px;
+    height: 149px;
+}
+
+.grid-cell.crying-mouse{
+    background-image: url(../images/characters/mouse/crying-mouse-1.png);
+    background-repeat: no-repeat;
+    background-size: 62%;
+    background-position: center center; /* This centers the background image */
+    width: 64px;
+    height: 158px;
+}
+
+.grid-cell.angry-mouse{
+    background-image: url(../images/characters/mouse/crying-mouse-2.png);
+    background-repeat: no-repeat;
+    background-size: 62%;
+    background-position: center center; /* This centers the background image */
+    width: 64px;
+    height: 158px;
+}
+
+.grid-cell.dancing-cat {
+    background-image: url(../images/characters/cat/dancing-cat.gif);
+    background-repeat: no-repeat;
+    background-position: center center; /* This centers the background image */
+    width: 154px;
+    height: 159px;
+    background-size: 80%;
+}
+
+.disabled {
+    opacity: .4;
+}
+.frozen {
+    background-image: none;
+    cursor: auto;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Tic Tac Toe Tactics</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+      <link rel="icon" href="../../resources/images/characters/cat/favicon.png">
+      <link rel="stylesheet" href="../../resources/style_sheets/style.css">
+      <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+      <script src="bower_components/aos/dist/aos.js"></script>
+   </head>
+   <body>
+      <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+      <script> AOS.init();</script>
+      <main>
+         <section class="submission-info">
+            <div class="flex-row width-100 align-flex-end">
+               <h1> Tic Tac Toe Tactics <span class="red-ink"> (Revised) </span> </h1>
+               <div class="header margin-right-plus-2 flex-column">
+                  <p>Olive Price</p>
+                  <p>11/09/2023</p>
+               </div>
+            </div>
+         </section>
+
+         <section class="notebook-paper">
+            <div class="flex-center-column margin-left-right-plus-3 margin-top-plus-1">
+               <div class="play-area">
+                  <div class="waviy">
+                     <span style="--i:1">W</span>
+                     <span style="--i:2">a</span>
+                     <span style="--i:3">i</span>
+                     <span style="--i:4">t</span>
+                     <span style="--i:5">i</span>
+                     <span style="--i:6">n</span>
+                     <span style="--i:7">g</span>
+                     <span class="margin-left-plus-1" style="--i:8">f</span>
+                     <span style="--i:9">o</span>
+                     <span style="--i:10">r</span>
+                     <span class="margin-left-plus-1" style="--i:11">o</span>
+                     <span style="--i:12"> p</span>
+                     <span style="--i:13">p</span>
+                     <span style="--i:14">o</span>
+                     <span style="--i:15">n</span>
+                     <span style="--i:16">e</span>
+                     <span style="--i:17">n</span>
+                     <span style="--i:18">t</span>
+                     <span style="--i:19">.</span>
+                     <span style="--i:20">.</span>
+                     <span style="--i:21">.</span>                        
+                  </div>
+
+                  <div class="layered-grid disabled">
+                     <div class="tic-tac-toe">
+                        <div class="line horizontal-line" id="horizontal-1"></div>
+                        <div class="line horizontal-line" id="horizontal-2"></div>
+                        <div class="line vertical-line" id="vertical-1"></div>
+                        <div class="line vertical-line" id="vertical-2"></div>
+                        <div class="game-grid">
+                           <div class="grid-row">
+                              <div class="grid-cell taken-cat-1"></div>
+                              <div class="grid-cell taken-mouse-1 hidden"></div>
+                              <div class="grid-cell "></div>
+                           </div>
+                           <div class="grid-row">
+                              <div class="grid-cell "></div>
+                              <div class="grid-cell "></div>
+                              <div class="grid-cell "></div>
+                           </div>
+                           <div class="grid-row">
+                              <div class="grid-cell "></div>
+                              <div class="grid-cell "></div>
+                              <div class="grid-cell "></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+
+            <div class="flex-row flex-horizontal-center nav-buttons">
+               <a href="2-move-1.html">
+               <div aria-label="Previous Page" class="btn back-button"></div>
+               <a href="4-move-3.html">
+               <div aria-label="Next Page" class="btn next-button"></div>
+            </div>
+         </section>
+         </div>
+      </main>
+      <script>
+         setTimeout(function() {
+           var elements = document.querySelectorAll('.waviy span');
+           elements.forEach(function(el) {
+             el.style.animation = 'none';
+             // force a repaint
+             el.offsetHeight; // reading offsetHeight will force a repaint
+           });
+         }, 2000);
+         
+                 // function to add the 'show' class to the mouse cell, removing 'hidden'
+         function showMouse() {
+           var mouseCell = document.querySelector('.taken-mouse-1');
+           mouseCell.classList.remove('hidden');
+           mouseCell.classList.add('show');
+         }
+         
+         // set a timeout for 2 seconds after the page loads to call showMouse
+         window.onload = function() {
+           setTimeout(showMouse, 2000); // 2000 milliseconds = 2 seconds
+         };
+                 
+                     // wait for the DOM to load
+                     document.addEventListener('DOMContentLoaded', (event) => {
+                         // set a timeout for 4 seconds
+                         setTimeout(() => {
+                             // select the button by its class
+                             var nextButton = document.querySelector('.next-button');
+                             // change the display property to show the button
+                             nextButton.style.display = 'block'; 
+                         }, 2500);
+                     });
+                 
+      </script>
+   </body>
+</html>

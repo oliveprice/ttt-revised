@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Tic Tac Toe Tactics</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+      <link rel="icon" href="../../resources/images/characters/cat/favicon.png">
+      <link rel="stylesheet" href="../../resources/style_sheets/style.css">
+      <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+      <script src="bower_components/aos/dist/aos.js"></script>
+   </head>
+   <body>
+      <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+      <script> AOS.init();</script>
+      <main>
+         <section class="submission-info">
+            <div class="flex-row width-100 align-flex-end">
+                <h1> Tic Tac Toe Tactics <span class="red-ink"> (Revised) </span> </h1>
+                <div class="header margin-right-plus-2 flex-column">
+                <p>Olive Price</p>
+                <p>11/09/2023</p>
+                </div>
+            </div>
+         </section>
+
+         <section class="notebook-paper">
+            <div class="flex-center-column margin-left-right-plus-3 margin-top-plus-1">
+               <div class="play-area">
+                  <p class="instruction margin-bottom-plus-1 text-bounce">Make a move! </p>
+                  <div class="layered-grid">
+                     <div class="tic-tac-toe">
+                        <div class="line horizontal-line" id="horizontal-1"></div>
+                        <div class="line horizontal-line" id="horizontal-2"></div>
+                        <div class="line vertical-line" id="vertical-1"></div>
+                        <div class="line vertical-line" id="vertical-2"></div>
+                        <a href="7-move-6.html">
+                           <div class="game-grid">
+                              <div class="grid-row">
+                                 <div class="grid-cell taken-cat-1"></div>
+                                 <div class="grid-cell taken-mouse-1 "></div>
+                                 <div class="grid-cell move-3"></div>
+                              </div>
+                              <div class="grid-row">
+                                 <div class="grid-cell move-3"></div>
+                                 <div class="grid-cell move-3"></div>
+                                 <div class="grid-cell move-3"></div>
+                              </div>
+                              <div class="grid-row">
+                                 <div class="grid-cell move-3"></div>
+                                 <div class="grid-cell taken-mouse-2"></div>
+                                 <div class="grid-cell taken-cat-2"></div>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="flex-row flex-horizontal-center nav-buttons">
+               <a href="5-move-4.html">
+               <div aria-label="Previous Page" class="btn back-button"></div>
+               <a href="7-move-6.html">
+               <div aria-label="Next Page" class="btn next-button"></div>
+            </div>
+         </section>
+         </div>
+      </main>
+
+      
+      <script>
+         // wait for the DOM to load
+         document.addEventListener('DOMContentLoaded', (event) => {
+             // set a timeout for 4 seconds
+             setTimeout(() => {
+                 // select the button by its class
+                 var nextButton = document.querySelector('.next-button');
+                 // change the display property to show the button
+                 nextButton.style.display = 'block'; 
+             }, 0);
+         });
+      </script>
+   </body>
+</html>

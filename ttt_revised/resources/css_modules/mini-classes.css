@@ -1,0 +1,97 @@
+
+.align-flex-end {
+    display: flex;
+    align-items: flex-end;
+}
+
+.flex-vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+.flex-horizontal-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.space-around {
+    justify-content: space-around;
+
+}
+
+.horizontal-flex-start {
+    justify-content: flex-start;
+
+}
+
+.flex-center-column {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.width-100 {
+    width: 100%;
+}
+.margin-top-none {
+    margin-top: 0rem;
+}
+
+.margin-top-0 {
+    margin-top: 1rem;
+}
+
+.margin-top-large {
+    margin-top: 12rem;
+}
+
+.margin-top-plus-1 {
+    margin-top: 2rem;
+}
+
+.margin-top-plus-2 {
+    margin-top: 4rem;
+}
+
+.margin-top-plus-2 {
+    margin-top: 4rem;
+}
+.margin-bottom-0 {
+    margin-bottom: 1rem;
+}
+.margin-bottom-plus-1 {
+    margin-bottom: 2rem;
+}
+
+.margin-left-plus-1 {
+    margin-left: 2rem;
+}
+
+.margin-left-right-plus-3 {
+    margin-left: 11vw;
+    margin-right: 14vw;
+}
+
+.margin-right-plus-2 {
+    margin-right: 51px;
+}
