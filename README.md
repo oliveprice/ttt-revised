@@ -1,7 +1,7 @@
 # ttt-revised
 
 ## Overview
-This repository contains a static prototype of a Tic Tac Toe game. It's a non-functional, static site that serves as a visual to demonstrate the user interface and user experience design of the game. It is written purely in HTML, CSS, and JS.
+This repository contains a static prototype of a Tic Tac Toe game. It's a non-functional site that serves as a visual to demonstrate the user interface and user experience design of the game. It is written purely in HTML, CSS, and JS.
 
 ## How It Works
 Clicking the buttons regarding the decision of opponent/level of difficulty will begin the process. The prototype is structured like a slideshow to simulate the game flow. Navigation is facilitated through "next page" and "previous page" buttons, allowing users to move through the game sequence from start to finish. 
