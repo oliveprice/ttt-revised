@@ -27,8 +27,9 @@ To run the prototype locally on your machine, follow these steps:
 
 Alternatively, if you want to run it using a local server:
 
-For Python 3.x installed systems, you can use the built-in HTTP server:
-  ```sh
-  python -m http.server
+For Node.js environments, you can use http-server or similar packages. If http-server is not installed, install it globally via npm. Then run the server in the project directory:
+ ```sh
+   npm install --global http-server
+   http-server
 
 
