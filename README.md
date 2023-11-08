@@ -10,7 +10,7 @@ Please note that this is a static prototype: user choices do not influence the g
 
 
 ## Live Version
-You can access the live version of the prototype here: https://654ae85dace39649ef5da4df--lovely-pastelito-d12001.netlify.app/index.html
+You can access the live version of the prototype here: (https://lovely-pastelito-d12001.netlify.app)
 
 ## Running Locally
 To run the prototype locally on your machine, follow these steps:
