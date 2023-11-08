@@ -69,7 +69,16 @@
 
 
       <script>
-
+    // wait for the DOM to load
+    document.addEventListener('DOMContentLoaded', (event) => {
+        // set a timeout for 2.7 seconds
+        setTimeout(() => {
+            // select the button by its class
+            var nextButton = document.querySelector('.next-button');
+            // add the 'shake' class to the button
+            nextButton.classList.add('shake');
+        }, 2700);
+    });
       </script>
    </body>
 </html>

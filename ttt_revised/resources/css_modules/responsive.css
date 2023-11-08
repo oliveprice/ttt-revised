@@ -171,3 +171,6 @@
 .flex-row.width-100.align-flex-end {
     margin-bottom: -0.4rem;
 }
+.instruction {
+    margin-top: -11px;
+}
