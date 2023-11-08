@@ -79,14 +79,14 @@
                <a href="../../index.html">
                <div aria-label="Previous Page" class="btn back-button"></div>
                <a href="2-move-1.html">
-               <div aria-label="Next Page" class="btn next-button"></div>
+               <div aria-label="Next Page" class="btn next-button "></div>
             </div>
          </section>
          </div>
       </main>
 
 
-      
+
       <script>
          setTimeout(function() {
            var elements = document.querySelectorAll('.waviy span');
@@ -98,16 +98,18 @@
          }, 2500);
          
          
-             // wait for the DOM to load
-             document.addEventListener('DOMContentLoaded', (event) => {
-                 // set a timeout for 4 seconds
-                 setTimeout(() => {
-                     // select the button by its class
-                     var nextButton = document.querySelector('.next-button');
-                     // change the display property to show the button
-                     nextButton.style.display = 'block'; 
-                 }, 2500);
-             });
+        // Wait for the DOM to load
+        document.addEventListener('DOMContentLoaded', (event) => {
+            // Set a timeout for 2.7 seconds
+            setTimeout(() => {
+                // Select the button by its class
+                var nextButton = document.querySelector('.next-button');
+                // Change the display property to show the button
+                nextButton.style.display = 'block';
+                // Add the 'shake' class to the button
+                nextButton.classList.add('shake');
+            }, 2700);
+        });
          
          
              setTimeout(function() {

@@ -96,3 +96,18 @@ p.instruction {
 p.text-bounce {
   animation: text-bounce 2s infinite; 
 }
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+.shake {
+  display: inline-block;
+  /* Add your other button styling here */
+  animation: shake 0.5s; /* adjust timing as needed */
+  animation-iteration-count: infinite;
+}

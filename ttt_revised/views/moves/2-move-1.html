@@ -26,13 +26,13 @@
          <section class="notebook-paper">
             <div class="flex-center-column margin-left-right-plus-3 margin-top-plus-1">
                <div class="play-area">
-                  <p class="instruction margin-bottom-plus-1 text-bounce">Make a move! </p>
+                  <p class="instruction margin-bottom-plus-1">Make a move! </p>
                   <div class="tic-tac-toe">
                      <div class="line horizontal-line" id="horizontal-1"></div>
                      <div class="line horizontal-line" id="horizontal-2"></div>
                      <div class="line vertical-line" id="vertical-1"></div>
                      <div class="line vertical-line" id="vertical-2"></div>
-                     <a href="3-move-2.html">
+                    
                         <div class="game-grid">
                            <div class="grid-row">
                               <div class="grid-cell move-1"></div>
@@ -50,7 +50,7 @@
                               <div class="grid-cell move-1"></div>
                            </div>
                         </div>
-                     </a>
+                     
                   </div>
                </div>
             </div>
@@ -60,25 +60,15 @@
                <a href="1-initialization.html">
                <div aria-label="Previous Page" class="btn back-button"></div>
                <a href="3-move-2.html">
-               <div aria-label="Next Page" class="btn next-button"></div>
+               <div aria-label="Next Page" class="btn next-button visible"></div>
             </div>
          </section>
          </div>
       </main>
 
 
-
       <script>
-         // wait for the DOM to load
-         document.addEventListener('DOMContentLoaded', (event) => {
-             // set a timeout for 4 seconds
-             setTimeout(() => {
-                 // select the button by its class
-                 var nextButton = document.querySelector('.next-button');
-                 // change the display property to show the button
-                 nextButton.style.display = 'block'; 
-             }, 0);
-         });
+
          
       </script>
    </body>

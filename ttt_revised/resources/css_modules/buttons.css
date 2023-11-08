@@ -149,3 +149,7 @@
 .back-button, .back-button:hover, .next-button, .next-button:hover, .play-again-button, .play-again-button:hover {
     width: 100px;
 }
+
+.visible {
+    display: inline-block;
+}

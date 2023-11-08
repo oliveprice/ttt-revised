@@ -84,7 +84,7 @@
                <a href="4-move-3.html">
                <div aria-label="Previous Page" class="btn back-button"></div>
                <a href="6-move-5.html">
-               <div aria-label="Next Page" class="btn next-button"></div>
+               <div aria-label="Next Page" class="btn next-button "></div>
             </div>
          </section>
          </div>
@@ -94,33 +94,35 @@
            var elements = document.querySelectorAll('.waviy span');
            elements.forEach(function(el) {
              el.style.animation = 'none';
-             // Force a repaint
+             // force a repaint
              el.offsetHeight; // reading offsetHeight will force a repaint
            });
          }, 2000);
          
-                 // Function to add the 'show' class to the mouse cell, removing 'hidden'
+                 // function to add the 'show' class to the mouse cell, removing 'hidden'
          function showMouse() {
            var mouseCell = document.querySelector('.taken-mouse-2');
            mouseCell.classList.remove('hidden');
            mouseCell.classList.add('show');
          }
          
-         // Set a timeout for 2 seconds after the page loads to call showMouse
+         // set a timeout for 2 seconds after the page loads to call showMouse
          window.onload = function() {
            setTimeout(showMouse, 2000); // 2000 milliseconds = 2 seconds
          };
                  
-                     // wait for the DOM to load
-                     document.addEventListener('DOMContentLoaded', (event) => {
-                         // set a timeout for 4 seconds
-                         setTimeout(() => {
-                             // select the button by its class
-                             var nextButton = document.querySelector('.next-button');
-                             // change the display property to show the button
-                             nextButton.style.display = 'block'; 
-                         }, 2500);
-                     });
+        // wait for the DOM to load
+        document.addEventListener('DOMContentLoaded', (event) => {
+            // set a timeout for 2.7 seconds
+            setTimeout(() => {
+                // select the button by its class
+                var nextButton = document.querySelector('.next-button');
+                // change the display property to show the button
+                nextButton.style.display = 'block';
+                // add the 'shake' class to the button
+                nextButton.classList.add('shake');
+            }, 2700);
+        });
                  
       </script>
    </body>

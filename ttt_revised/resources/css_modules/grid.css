@@ -84,7 +84,7 @@
     background-position: center center; 
     width: 64px;
     height: 149px;
-    cursor: pointer;
+   
 }
 
 .grid-cell.move-2:hover {
@@ -94,7 +94,7 @@
     background-position: center center; 
     width: 64px;
     height: 149px;
-    cursor: pointer;
+   
 }
 
 .grid-cell.move-3:hover {
@@ -102,8 +102,6 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center; 
-
-    cursor: pointer;
 }
 .grid-cell.taken-cat-1 {
     background-image: url(../images/characters/cat/sitting-cat.png);
@@ -133,16 +131,16 @@
 .grid-cell.taken-mouse-1 {
     background-image: url(../images/characters/mouse/sitting-mouse.png);
     background-repeat: no-repeat;
-    background-size: 50%; /* Adjust this value as needed to make the image smaller */
-    background-position: center center; /* This centers the background image */
+    background-size: 50%;
+    background-position: center center;
     width: 64px;
     height: 149px;
 }
 .grid-cell.taken-mouse-2 {
     background-image: url(../images/characters/mouse/cheese-mouse.png);
     background-repeat: no-repeat;
-    background-size: 50%; /* Adjust this value as needed to make the image smaller */
-    background-position: center center; /* This centers the background image */
+    background-size: 50%; 
+    background-position: center center; 
     width: 64px;
     height: 149px;
 }
@@ -151,7 +149,7 @@
     background-image: url(../images/characters/mouse/crying-mouse-1.png);
     background-repeat: no-repeat;
     background-size: 62%;
-    background-position: center center; /* This centers the background image */
+    background-position: center center; 
     width: 64px;
     height: 158px;
 }
@@ -160,7 +158,7 @@
     background-image: url(../images/characters/mouse/crying-mouse-2.png);
     background-repeat: no-repeat;
     background-size: 62%;
-    background-position: center center; /* This centers the background image */
+    background-position: center center; 
     width: 64px;
     height: 158px;
 }
@@ -168,7 +166,7 @@
 .grid-cell.dancing-cat {
     background-image: url(../images/characters/cat/dancing-cat.gif);
     background-repeat: no-repeat;
-    background-position: center center; /* This centers the background image */
+    background-position: center center;
     width: 154px;
     height: 159px;
     background-size: 80%;
